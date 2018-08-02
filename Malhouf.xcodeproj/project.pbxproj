@@ -14,6 +14,10 @@
 		60276F522112E9CD00A1B62B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60276F502112E9CD00A1B62B /* LaunchScreen.storyboard */; };
 		60276F5D2112E9CD00A1B62B /* MalhoufTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60276F5C2112E9CD00A1B62B /* MalhoufTests.swift */; };
 		60276F682112E9CE00A1B62B /* MalhoufUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60276F672112E9CE00A1B62B /* MalhoufUITests.swift */; };
+		60276F772113230900A1B62B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60276F762113230900A1B62B /* HomeViewController.swift */; };
+		60276F7921132ACE00A1B62B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60276F7821132ACE00A1B62B /* LoginViewController.swift */; };
+		60276F7B21132BBA00A1B62B /* TicketTextField2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60276F7A21132BBA00A1B62B /* TicketTextField2.swift */; };
+		60276F7D21132C5A00A1B62B /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60276F7C21132C5A00A1B62B /* TimerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		60276F632112E9CD00A1B62B /* MalhoufUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MalhoufUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		60276F672112E9CE00A1B62B /* MalhoufUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MalhoufUITests.swift; sourceTree = "<group>"; };
 		60276F692112E9CE00A1B62B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60276F762113230900A1B62B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		60276F7821132ACE00A1B62B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		60276F7A21132BBA00A1B62B /* TicketTextField2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketTextField2.swift; sourceTree = "<group>"; };
+		60276F7C21132C5A00A1B62B /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +108,10 @@
 				60276F472112E9CA00A1B62B /* AppDelegate.swift */,
 				60276F492112E9CA00A1B62B /* ViewController.swift */,
 				60276F4B2112E9CA00A1B62B /* Main.storyboard */,
+				60276F7C21132C5A00A1B62B /* TimerViewController.swift */,
+				60276F7A21132BBA00A1B62B /* TicketTextField2.swift */,
+				60276F7821132ACE00A1B62B /* LoginViewController.swift */,
+				60276F762113230900A1B62B /* HomeViewController.swift */,
 				60276F4E2112E9CD00A1B62B /* Assets.xcassets */,
 				60276F502112E9CD00A1B62B /* LaunchScreen.storyboard */,
 				60276F532112E9CD00A1B62B /* Info.plist */,
@@ -256,8 +268,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60276F7921132ACE00A1B62B /* LoginViewController.swift in Sources */,
 				60276F4A2112E9CA00A1B62B /* ViewController.swift in Sources */,
 				60276F482112E9CA00A1B62B /* AppDelegate.swift in Sources */,
+				60276F7B21132BBA00A1B62B /* TicketTextField2.swift in Sources */,
+				60276F7D21132C5A00A1B62B /* TimerViewController.swift in Sources */,
+				60276F772113230900A1B62B /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
