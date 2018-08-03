@@ -600,13 +600,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 962VFYAU45;
+				DEVELOPMENT_TEAM = 232776J4C5;
 				INFOPLIST_FILE = Malhouf/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.hajjhacthon.Malhouf;
+				PRODUCT_BUNDLE_IDENTIFIER = com.noura.AppTest.Malhouf;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -619,13 +619,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 962VFYAU45;
+				DEVELOPMENT_TEAM = 232776J4C5;
 				INFOPLIST_FILE = Malhouf/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.hajjhacthon.Malhouf;
+				PRODUCT_BUNDLE_IDENTIFIER = com.noura.AppTest.Malhouf;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
