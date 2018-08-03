@@ -146,6 +146,10 @@ class MapViewController: UIViewController {
         
     }
     
+    @IBAction func cancelButton(_ sender: Any) {
+//       _ = navigationController?.popViewController(animated: true)
+        dismiss(animated: true, completion: nil)
+    }
     func drawMarker() {
         var markerDict: [String: GMSMarker] = [:]
         

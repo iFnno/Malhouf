@@ -263,7 +263,7 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dcI-s4-VbX">
-                                <rect key="frame" x="0.0" y="597" width="375" height="44"/>
+                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.2470588235" green="0.69019607839999997" blue="0.62352941179999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal">
@@ -555,7 +555,7 @@
                                     </attributedString>
                                 </state>
                                 <connections>
-                                    <action selector="cancelButton:" destination="ZmO-oe-xkh" eventType="touchUpInside" id="bny-TS-k5P"/>
+                                    <action selector="cancelButton:" destination="ZmO-oe-xkh" eventType="touchUpInside" id="xd4-IQ-MoG"/>
                                 </connections>
                             </button>
                         </subviews>

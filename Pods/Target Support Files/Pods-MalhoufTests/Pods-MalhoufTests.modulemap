@@ -1,0 +1,6 @@
+framework module Pods_MalhoufTests {
+  umbrella header "Pods-MalhoufTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

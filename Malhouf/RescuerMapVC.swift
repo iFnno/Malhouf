@@ -141,8 +141,7 @@ class RescuerMapVC: UIViewController {
     }
     
     @IBAction func doneButton(_ sender: Any) {
-        let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        let controller = storyboard.instantiateViewController(withIdentifier: "timer") as UIViewController
+       
         role = "help"
         _ = navigationController?.popViewController(animated: true)
         
