@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		146F7551211414BC0004C1D0 /* RescuerMapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146F7550211414BC0004C1D0 /* RescuerMapVC.swift */; };
+		146F7553211415B90004C1D0 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146F7552211415B90004C1D0 /* MapViewController.swift */; };
 		60276F482112E9CA00A1B62B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60276F472112E9CA00A1B62B /* AppDelegate.swift */; };
 		60276F4A2112E9CA00A1B62B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60276F492112E9CA00A1B62B /* ViewController.swift */; };
 		60276F4D2112E9CA00A1B62B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60276F4B2112E9CA00A1B62B /* Main.storyboard */; };
@@ -18,6 +20,9 @@
 		60276F7921132ACE00A1B62B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60276F7821132ACE00A1B62B /* LoginViewController.swift */; };
 		60276F7B21132BBA00A1B62B /* TicketTextField2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60276F7A21132BBA00A1B62B /* TicketTextField2.swift */; };
 		60276F7D21132C5A00A1B62B /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60276F7C21132C5A00A1B62B /* TimerViewController.swift */; };
+		BF1F546BAB63AB874ED08C54 /* Pods_MalhoufTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B251E4979D9E5EA65DF42D2C /* Pods_MalhoufTests.framework */; };
+		D316F991B207F8475129D9CA /* Pods_Malhouf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA5BF6B39E1A0B29870F7149 /* Pods_Malhouf.framework */; };
+		DE366077770C8E46657F6266 /* Pods_MalhoufUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37B7392D574D5D0B16859E01 /* Pods_MalhoufUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +43,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0095B75617E0EA46FAED8397 /* Pods-MalhoufTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MalhoufTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MalhoufTests/Pods-MalhoufTests.release.xcconfig"; sourceTree = "<group>"; };
+		0E484EE1473F5DE387A4D1A5 /* Pods-Malhouf.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Malhouf.release.xcconfig"; path = "Pods/Target Support Files/Pods-Malhouf/Pods-Malhouf.release.xcconfig"; sourceTree = "<group>"; };
+		146F7550211414BC0004C1D0 /* RescuerMapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RescuerMapVC.swift; sourceTree = "<group>"; };
+		146F7552211415B90004C1D0 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		2C3D37C571DEC0773036017D /* Pods-MalhoufUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MalhoufUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MalhoufUITests/Pods-MalhoufUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		37B7392D574D5D0B16859E01 /* Pods_MalhoufUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MalhoufUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		60276F442112E9CA00A1B62B /* Malhouf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Malhouf.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60276F472112E9CA00A1B62B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		60276F492112E9CA00A1B62B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -55,6 +66,11 @@
 		60276F7821132ACE00A1B62B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		60276F7A21132BBA00A1B62B /* TicketTextField2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketTextField2.swift; sourceTree = "<group>"; };
 		60276F7C21132C5A00A1B62B /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		A77281A64AB28155CC1A2EB2 /* Pods-MalhoufTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MalhoufTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MalhoufTests/Pods-MalhoufTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AB62FD7284B5D9F9A4C24420 /* Pods-Malhouf.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Malhouf.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Malhouf/Pods-Malhouf.debug.xcconfig"; sourceTree = "<group>"; };
+		B251E4979D9E5EA65DF42D2C /* Pods_MalhoufTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MalhoufTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C818375FBF016C4F4AA442D4 /* Pods-MalhoufUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MalhoufUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MalhoufUITests/Pods-MalhoufUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CA5BF6B39E1A0B29870F7149 /* Pods_Malhouf.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Malhouf.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D316F991B207F8475129D9CA /* Pods_Malhouf.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF1F546BAB63AB874ED08C54 /* Pods_MalhoufTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,12 +94,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE366077770C8E46657F6266 /* Pods_MalhoufUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3DD6FCA01639112D489D62C3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AB62FD7284B5D9F9A4C24420 /* Pods-Malhouf.debug.xcconfig */,
+				0E484EE1473F5DE387A4D1A5 /* Pods-Malhouf.release.xcconfig */,
+				A77281A64AB28155CC1A2EB2 /* Pods-MalhoufTests.debug.xcconfig */,
+				0095B75617E0EA46FAED8397 /* Pods-MalhoufTests.release.xcconfig */,
+				2C3D37C571DEC0773036017D /* Pods-MalhoufUITests.debug.xcconfig */,
+				C818375FBF016C4F4AA442D4 /* Pods-MalhoufUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		60276F3B2112E9CA00A1B62B = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +121,8 @@
 				60276F5B2112E9CD00A1B62B /* MalhoufTests */,
 				60276F662112E9CE00A1B62B /* MalhoufUITests */,
 				60276F452112E9CA00A1B62B /* Products */,
+				3DD6FCA01639112D489D62C3 /* Pods */,
+				C6BEA611A126692FAD92FEA1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -115,6 +149,8 @@
 				60276F4E2112E9CD00A1B62B /* Assets.xcassets */,
 				60276F502112E9CD00A1B62B /* LaunchScreen.storyboard */,
 				60276F532112E9CD00A1B62B /* Info.plist */,
+				146F7550211414BC0004C1D0 /* RescuerMapVC.swift */,
+				146F7552211415B90004C1D0 /* MapViewController.swift */,
 			);
 			path = Malhouf;
 			sourceTree = "<group>";
@@ -137,6 +173,16 @@
 			path = MalhoufUITests;
 			sourceTree = "<group>";
 		};
+		C6BEA611A126692FAD92FEA1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA5BF6B39E1A0B29870F7149 /* Pods_Malhouf.framework */,
+				B251E4979D9E5EA65DF42D2C /* Pods_MalhoufTests.framework */,
+				37B7392D574D5D0B16859E01 /* Pods_MalhoufUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,9 +190,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 60276F6C2112E9CE00A1B62B /* Build configuration list for PBXNativeTarget "Malhouf" */;
 			buildPhases = (
+				09ACCFF0E71358F424CD1CBB /* [CP] Check Pods Manifest.lock */,
 				60276F402112E9CA00A1B62B /* Sources */,
 				60276F412112E9CA00A1B62B /* Frameworks */,
 				60276F422112E9CA00A1B62B /* Resources */,
+				013C55A31DAB1E04AC748F56 /* [CP] Embed Pods Frameworks */,
+				086D23E3468D406CE61E9FF4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -161,6 +210,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 60276F6F2112E9CE00A1B62B /* Build configuration list for PBXNativeTarget "MalhoufTests" */;
 			buildPhases = (
+				D9F9B8FD09AE39FDA3BD11DC /* [CP] Check Pods Manifest.lock */,
 				60276F542112E9CD00A1B62B /* Sources */,
 				60276F552112E9CD00A1B62B /* Frameworks */,
 				60276F562112E9CD00A1B62B /* Resources */,
@@ -179,6 +229,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 60276F722112E9CE00A1B62B /* Build configuration list for PBXNativeTarget "MalhoufUITests" */;
 			buildPhases = (
+				B520A2AD9589DCF3DB8D1777 /* [CP] Check Pods Manifest.lock */,
 				60276F5F2112E9CD00A1B62B /* Sources */,
 				60276F602112E9CD00A1B62B /* Frameworks */,
 				60276F612112E9CD00A1B62B /* Resources */,
@@ -263,17 +314,118 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		013C55A31DAB1E04AC748F56 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Malhouf/Pods-Malhouf-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/TTGSnackbar/TTGSnackbar.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TTGSnackbar.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Malhouf/Pods-Malhouf-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		086D23E3468D406CE61E9FF4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Malhouf/Pods-Malhouf-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Malhouf/Pods-Malhouf-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		09ACCFF0E71358F424CD1CBB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Malhouf-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B520A2AD9589DCF3DB8D1777 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MalhoufUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9F9B8FD09AE39FDA3BD11DC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MalhoufTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		60276F402112E9CA00A1B62B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				60276F7921132ACE00A1B62B /* LoginViewController.swift in Sources */,
+				146F7551211414BC0004C1D0 /* RescuerMapVC.swift in Sources */,
 				60276F4A2112E9CA00A1B62B /* ViewController.swift in Sources */,
 				60276F482112E9CA00A1B62B /* AppDelegate.swift in Sources */,
 				60276F7B21132BBA00A1B62B /* TicketTextField2.swift in Sources */,
 				60276F7D21132C5A00A1B62B /* TimerViewController.swift in Sources */,
 				60276F772113230900A1B62B /* HomeViewController.swift in Sources */,
+				146F7553211415B90004C1D0 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,6 +596,7 @@
 		};
 		60276F6D2112E9CE00A1B62B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB62FD7284B5D9F9A4C24420 /* Pods-Malhouf.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -462,6 +615,7 @@
 		};
 		60276F6E2112E9CE00A1B62B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E484EE1473F5DE387A4D1A5 /* Pods-Malhouf.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -480,6 +634,7 @@
 		};
 		60276F702112E9CE00A1B62B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A77281A64AB28155CC1A2EB2 /* Pods-MalhoufTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -501,6 +656,7 @@
 		};
 		60276F712112E9CE00A1B62B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0095B75617E0EA46FAED8397 /* Pods-MalhoufTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -522,6 +678,7 @@
 		};
 		60276F732112E9CE00A1B62B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C3D37C571DEC0773036017D /* Pods-MalhoufUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -542,6 +699,7 @@
 		};
 		60276F742112E9CE00A1B62B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C818375FBF016C4F4AA442D4 /* Pods-MalhoufUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
