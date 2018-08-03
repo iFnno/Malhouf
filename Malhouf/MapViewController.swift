@@ -25,6 +25,9 @@ class MapViewController: UIViewController {
     var placesClient: GMSPlacesClient!
     var zoomLevel: Float = 15.0
     
+    var lonReq: String?
+    var latReq: String?
+    
     struct State {
         let name: String
         let long: CLLocationDegrees
@@ -59,39 +62,18 @@ class MapViewController: UIViewController {
         locationManager.delegate = self
         
     }
+
     var arrRes = [[String:AnyObject]]() //Array of dictionary
     func getData() {
-        //        let origin = "\(21.557512),\(39.162773)"
-        //        let destination = "\(21.626466),\(39.128441)"
-        let parameters: Parameters=[
+
+        let parameters: Parameters = [
             "longitude": "39.162773",
             "latitude": "21.557512"
         ]
         
         let requestURL = "http://malahuf-212116.appspot.com/api/rescuer"
         
-        
-        //        Alamofire.request(requestURL, method: .post, parameters: parameters).responseJSON { (response) -> Void in
-        //
-        ////            print("Data: \(response.result.value)")
-        //            if((response.result.value) != nil) {
-        //                let swiftyJsonVar = JSON(response.result.value!)
-        //                print("Data: \(swiftyJsonVar)")
-        //
-        //
-        //
-        //                let long = swiftyJsonVar["name"].stringValue
-        //                    print("long: \(long)")
-        //
-        ////                }
-        ////                self.states.append(State(name: "Alabama", long: 39.128441, lat: 21.626466))
-        //
-        //
-        //            }
-        //
-        //
-        //        }
-        
+
         Alamofire.request(requestURL, method: .post, parameters: parameters).responseJSON { (responseData) -> Void in
             if((responseData.result.value) != nil) {
                 let swiftyJsonVar = JSON(responseData.result.value!)
@@ -110,7 +92,7 @@ class MapViewController: UIViewController {
                 state_marker.title = "1"
                 state_marker.icon = GMSMarker.markerImage(with: .blue)
                 
-                //            state_marker.icon = UIImage(named: "marker-blue")
+                
                 state_marker.snippet = "Hey, this is 1"
                 state_marker.map = self.mapView
                 
@@ -203,9 +185,10 @@ extension MapViewController: CLLocationManagerDelegate {
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         let location: CLLocation = locations.last!
         print("Location: \(location)")
+        self.lonReq = "\(location.coordinate.longitude)"
+        self.latReq = "\(location.coordinate.latitude)"
         
-        
-        camera = GMSCameraPosition.camera(withLatitude: location.coordinate.latitude, longitude: location.coordinate.longitude, zoom: 15.0)
+        camera = GMSCameraPosition.camera(withLatitude: location.coordinate.latitude, longitude: location.coordinate.longitude, zoom: 20.0)
         mapView = GMSMapView.map(withFrame: self.view.bounds, camera: camera)
         
         self.subView.addSubview(mapView)
@@ -215,6 +198,7 @@ extension MapViewController: CLLocationManagerDelegate {
         mapView.settings.myLocationButton = true
         mapView.settings.compassButton = true
         getData()
+        drawDirection()
     }
     
 }

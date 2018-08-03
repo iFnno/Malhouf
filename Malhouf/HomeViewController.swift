@@ -21,6 +21,7 @@ class HomeViewController: UIViewController {
     var userLat: String?
     var rescuerID: String?
     
+    
     @IBAction func ambluanceButton(_ sender: Any) {
         let alertController = UIAlertController(title: "                                     ", message: "                                       " , preferredStyle: UIAlertControllerStyle.alert)
         var imageView = UIImageView(frame: CGRect(x: 90, y: 0, width: 90, height: 90))
@@ -81,33 +82,23 @@ class HomeViewController: UIViewController {
         navigationController?.pushViewController(LoginViewController, animated: true)
         
     }
-    func initMap() {
-        locationManager = CLLocationManager()
-        locationManager.desiredAccuracy = kCLLocationAccuracyBest
-        locationManager.requestAlwaysAuthorization()
-        locationManager.distanceFilter = 50
-        locationManager.startUpdatingLocation()
-        locationManager.delegate = self
-        
-    }
+ 
     
     @IBOutlet weak var ambluanceText: UILabel!
     
     @IBOutlet weak var helpText: UILabel!
     
     
-    
+    var count = 10
+
     override func viewDidLoad() {
         super.viewDidLoad()
         initMap()
-        
+       
         // Do any additional setup after loading the view.
     }
     
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
+  
     
     func createRequest(type: String) {
         
@@ -118,7 +109,7 @@ class HomeViewController: UIViewController {
             "latitude": userLat ?? "",
             "rescuers": rescuerID ?? ""
         ]
-        
+        print("rescuerID: \(rescuerID)")
         let requestURL = "http://malahuf-212116.appspot.com/api/request/new"
         
         
@@ -139,6 +130,18 @@ class HomeViewController: UIViewController {
         }
         
     }
+    
+    func initMap() {
+        locationManager = CLLocationManager()
+        locationManager.desiredAccuracy = kCLLocationAccuracyBest
+        locationManager.requestAlwaysAuthorization()
+        locationManager.distanceFilter = 50
+        locationManager.startUpdatingLocation()
+        locationManager.delegate = self
+        
+    }
+    
+
     
     func getData() {
         print("userLang: \(userLang ?? "")")

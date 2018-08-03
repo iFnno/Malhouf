@@ -29,6 +29,7 @@ class LoginViewController: UIViewController {
         
     }
     
+   
     func login() {
         if(!((emailField.text?.isEmpty)!) && !((passwordField.text?.isEmpty)!)) {
             let parameters: Parameters=[
@@ -70,24 +71,29 @@ class LoginViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        //        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: "dismissKeyboard")
-        //
-        //        //Uncomment the line below if you want the tap not not interfere and cancel other interactions.
-        //        //tap.cancelsTouchesInView = false
-        //
-        //        view.addGestureRecognizer(tap)
+        
+   self.hideKeyboardWhenTappedAround() 
     }
-    //    func dismissKeyboard() {
-    //        //Causes the view (or one of its embedded text fields) to resign the first responder status.
-    //        view.endEditing(true)
-    //    }
+ 
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
     
+ 
     
     
-    
+}
+// Put this piece of code anywhere you like
+extension LoginViewController {
+    func hideKeyboardWhenTappedAround() {
+        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(LoginViewController.dismissKeyboard))
+        tap.cancelsTouchesInView = false
+        view.addGestureRecognizer(tap)
+    }
+
+    @objc func dismissKeyboard() {
+        view.endEditing(true)
+    }
 }

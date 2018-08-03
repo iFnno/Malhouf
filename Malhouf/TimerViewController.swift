@@ -110,19 +110,22 @@ class TimerViewController: UIViewController {
         self.date = String(formatter.string(from: date))
         //    self.todayDate.text = self.date
         if startedAlready == true {
-            let date = Date()
-            let formatter = DateFormatter()
-            formatter.dateFormat = "yyyy/MM/dd HH:mm:ss"
-            let startTime1 = formatter.date(from: startTime)!
-            let units: Set<Calendar.Component> = [.hour, .minute, .second]
-            let difference = Calendar.current.dateComponents(units, from: startTime1, to: date)
-            self.hour = difference.hour!
-            self.min = difference.minute!
-            self.secon = difference.second!
-            seconds.text = String(self.secon)
-            minutes.text = String(self.min)
-            hours.text = String(self.hour)
-            self.run()
+//            let date = Date()
+//            let formatter = DateFormatter()
+//            formatter.dateFormat = "yyyy/MM/dd HH:mm:ss"
+//            if(startTime == 0) {
+//
+//            }
+//            let startTime1 = formatter.date(from: startTime)!
+//            let units: Set<Calendar.Component> = [.hour, .minute, .second]
+//            let difference = Calendar.current.dateComponents(units, from: startTime1, to: date)
+//            self.hour = difference.hour!
+//            self.min = difference.minute!
+//            self.secon = difference.second!
+//            seconds.text = String(self.secon)
+//            minutes.text = String(self.min)
+//            hours.text = String(self.hour)
+//            self.run()
         }
     }
     

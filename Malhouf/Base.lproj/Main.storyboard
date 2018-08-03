@@ -10,10 +10,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Navigation Controller-->
+        <!--ملهوف-->
         <scene sceneID="fMg-iN-c7n">
             <objects>
-                <navigationController id="7my-Ie-rHm" sceneMemberID="viewController">
+                <navigationController title="ملهوف" id="7my-Ie-rHm" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="yaz-kO-BlF">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -36,7 +36,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L4E-vq-KgN">
-                                <rect key="frame" x="112" y="617" width="149" height="30"/>
+                                <rect key="frame" x="112" y="545" width="149" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="14"/>
                                 <state key="normal" title="هل انت مغيث؟">
@@ -47,92 +47,32 @@
                                     <action selector="loginButton:" destination="uFN-pW-mZb" eventType="touchUpInside" id="soC-gb-6vj"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="raising-hand-icon" translatesAutoresizingMaskIntoConstraints="NO" id="zR8-UF-TlW">
-                                <rect key="frame" x="86" y="359" width="200" height="200"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kcj-z1-Pb5">
+                                <rect key="frame" x="86" y="120" width="200" height="200"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ambulanc icon" translatesAutoresizingMaskIntoConstraints="NO" id="cqB-s2-zOI">
-                                <rect key="frame" x="85" y="101" width="204" height="203"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UEh-jd-hQ4">
-                                <rect key="frame" x="87" y="567" width="200" height="27"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <attributedString key="attributedText">
-                                    <fragment content="احتاج">
-                                        <attributes>
-                                            <color key="NSColor" red="0.40784313725490196" green="0.40784313725490196" blue="0.40784313725490196" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="20" name="GeezaPro-Bold"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment content=" ">
-                                        <attributes>
-                                            <color key="NSColor" red="0.40784313725490196" green="0.40784313725490196" blue="0.40784313725490196" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="20" name="LucidaGrande-Bold"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment content="مغيث">
-                                        <attributes>
-                                            <color key="NSColor" red="0.40784313725490196" green="0.40784313725490196" blue="0.40784313725490196" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="20" name="GeezaPro-Bold"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6hx-nQ-W2Z">
-                                <rect key="frame" x="86" y="312" width="200" height="27"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <attributedString key="attributedText">
-                                    <fragment content="احتاج">
-                                        <attributes>
-                                            <color key="NSColor" red="0.40784313725490196" green="0.40784313725490196" blue="0.40784313725490196" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="20" name="GeezaPro-Bold"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment content=" ">
-                                        <attributes>
-                                            <color key="NSColor" red="0.40784313725490196" green="0.40784313725490196" blue="0.40784313725490196" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="20" name="LucidaGrande-Bold"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment content="مسعف">
-                                        <attributes>
-                                            <color key="NSColor" red="0.40784313725490196" green="0.40784313725490196" blue="0.40784313725490196" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="20" name="GeezaPro-Bold"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h4E-2h-9kc">
-                                <rect key="frame" x="82" y="359" width="210" height="250"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="ambulus-icon"/>
                                 <connections>
-                                    <action selector="helpButton:" destination="uFN-pW-mZb" eventType="touchUpInside" id="bRF-FA-2iW"/>
+                                    <action selector="ambluanceButton:" destination="uFN-pW-mZb" eventType="touchUpInside" id="BcW-Vo-Iso"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HI8-HV-Ilv">
-                                <rect key="frame" x="82" y="101" width="210" height="250"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nkg-No-Cc2">
+                                <rect key="frame" x="87" y="328" width="200" height="200"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="confirm-icon"/>
                                 <connections>
-                                    <action selector="ambluanceButton:" destination="uFN-pW-mZb" eventType="touchUpInside" id="zat-Bv-1Ve"/>
+                                    <action selector="helpButton:" destination="uFN-pW-mZb" eventType="touchUpInside" id="rev-H6-ajl"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="footer" translatesAutoresizingMaskIntoConstraints="NO" id="ef9-Q7-GQ2">
+                                <rect key="frame" x="0.0" y="593" width="375" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="ui3-5e-LZC"/>
                     </view>
                     <navigationItem key="navigationItem" title="ملهوف" id="TjM-fY-rv7"/>
                     <connections>
-                        <outlet property="ambluanceText" destination="6hx-nQ-W2Z" id="TVM-kD-tPw"/>
-                        <outlet property="helpText" destination="UEh-jd-hQ4" id="6jm-77-zhZ"/>
                         <segue destination="ULq-80-KPt" kind="show" identifier="helper" id="CBv-8q-aeJ"/>
                     </connections>
                 </viewController>
@@ -258,7 +198,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yNU-Wp-6fP">
-                                <rect key="frame" x="0.0" y="29" width="375" height="560"/>
+                                <rect key="frame" x="0.0" y="64" width="375" height="525"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
@@ -293,7 +233,7 @@
             </objects>
             <point key="canvasLocation" x="2784.8000000000002" y="138.98050974512745"/>
         </scene>
-        <!--Timer View Controller-->
+        <!--ملهوف-->
         <scene sceneID="O4r-U3-LOS">
             <objects>
                 <viewController storyboardIdentifier="timer" id="isu-e1-5W4" customClass="TimerViewController" customModule="Malhouf" customModuleProvider="target" sceneMemberID="viewController">
@@ -459,7 +399,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="w2u-63-Clj"/>
                     </view>
-                    <navigationItem key="navigationItem" id="5Rd-dK-UFM">
+                    <navigationItem key="navigationItem" title="ملهوف" id="5Rd-dK-UFM">
                         <barButtonItem key="backBarButtonItem" title="رجوع" id="Mcc-g2-La8"/>
                     </navigationItem>
                     <connections>
@@ -568,12 +508,13 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x23-4Q-xmD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="873" y="-627"/>
+            <point key="canvasLocation" x="961" y="-602"/>
         </scene>
     </scenes>
     <resources>
-        <image name="ambulanc icon" width="512" height="512"/>
+        <image name="ambulus-icon" width="512" height="512"/>
         <image name="confirm" width="512" height="512"/>
-        <image name="raising-hand-icon" width="512" height="512"/>
+        <image name="confirm-icon" width="512" height="512"/>
+        <image name="footer" width="521" height="242"/>
     </resources>
 </document>

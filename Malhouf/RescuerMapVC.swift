@@ -90,7 +90,7 @@ class RescuerMapVC: UIViewController {
                     let path = GMSPath.init(fromEncodedPath: points!)
                     
                     let polyline = GMSPolyline(path: path)
-                    polyline.strokeColor = .green
+                    polyline.strokeColor = .black
                     polyline.strokeWidth = 3.0
                     polyline.map = self.mapView
                     
@@ -105,7 +105,7 @@ class RescuerMapVC: UIViewController {
     func getRequests() {
         
         let parameters: Parameters=[
-            "id": "2"
+            "id": "4"
         ]
         
         let requestURL = "http://malahuf-212116.appspot.com/api/request/all"
@@ -125,7 +125,8 @@ class RescuerMapVC: UIViewController {
                 
                 let coord10 = coord1[0].doubleValue
                 let coord11 = coord1[1].doubleValue
-                
+                print("coord10: \(coord10)")
+                print("coord11: \(coord11)")
                 self.desctination = "\(coord10),\(coord11)"
                 let state_marker = GMSMarker()
                 state_marker.position = CLLocationCoordinate2D(latitude: CLLocationDegrees(coord10), longitude: coord11)
@@ -156,7 +157,7 @@ extension RescuerMapVC: CLLocationManagerDelegate {
         print("Location: \(location)")
         
         self.originPoint = "\(location.coordinate.latitude),\(location.coordinate.longitude)"
-        let camera = GMSCameraPosition.camera(withLatitude: location.coordinate.latitude, longitude: location.coordinate.longitude, zoom: 10.0)
+        let camera = GMSCameraPosition.camera(withLatitude: location.coordinate.latitude, longitude: location.coordinate.longitude, zoom: 20.0)
         mapView = GMSMapView.map(withFrame: self.view.bounds, camera: camera)
         
         self.subView.addSubview(mapView)
